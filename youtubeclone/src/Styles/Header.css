@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    /* sticky header */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+/* Left part of header */
+
+.left {
+    display: flex;
+    align-items: center; 
+}
+
+.YouTube-Logo {
+    height: 55px;
+    object-fit: contain;
+    margin-left: 15px;
+}
+
+/* Middle part of header */
+
+.middle {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid black;
+}
+
+.middle > input {
+    flex: 1;
+    border: none;
+    width: 95%;
+}
+
+.search {
+    width: 5% ;
+    background-color: rgb(232, 232, 232);
+    border: 1px solid lightgray;
+}
+
+/* Right part of header */
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 10px;
+}

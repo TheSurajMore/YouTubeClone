@@ -1,0 +1,11 @@
+.Sidebar {
+    flex: 0.2; /* Sidebar will take 20%% of its parent flex box which is belowHeader flex box */
+}
+
+.Sidebar > hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
