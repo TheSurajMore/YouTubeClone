@@ -36,11 +36,12 @@
     flex: 1;
     border: none;
     width: 95%;
+    height: 26px;
 }
 
 .search {
-    width: 5% ;
-    background-color: rgb(232, 232, 232);
+    width: 95% ;
+    background-color: rgb(232, 232, 232); 
     border: 1px solid lightgray;
 }
 
